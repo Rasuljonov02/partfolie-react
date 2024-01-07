@@ -3,7 +3,7 @@ import React from "react";
 export default class Div extends React.Component {
 	render() {
 		return (
-			<div className="fixed w-[100%] ">
+			<div  data-aos="fade-down-right" className="fixed w-[100%] ">
 				<div className="flex p-2 w-[100%] bg-white items-center border-b-gray-900 justify-between  ">
 					<div className="flex items-center gap-4">
 

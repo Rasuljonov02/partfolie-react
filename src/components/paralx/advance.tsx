@@ -17,10 +17,11 @@ export default function Raa() {
 		shouldAlwaysCompleteAnimation: true,
 		expanded: false,
 		children: (
-			<div className="inset center ">
+			<div data-aos="fade-up"
+			data-aos-anchor-placement="bottom-bottom" className="inset center ">
 				<h1 className="about">About</h1>
 				<div className=" flex items-center w-[80%] pt-4 gap-1 justify-between">
-					<div>
+					<div  >
 						<h1 className="headline ">
 							Hello, my name is Muhammad, <br /> I am currently a Frontend Developer at <br /> Pdp Academy .
 
@@ -29,7 +30,7 @@ export default function Raa() {
 							<br /> in future
 						</h1>
 					</div>
-					<div>
+					<div  >
 						<h1 className="headline  flex flex-col gap-2">
 							Surname: Rasuljanov <br />
 							Name: Muhammad <br />
