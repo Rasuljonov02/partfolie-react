@@ -20,7 +20,7 @@ export default function Raa() {
 			<div data-aos="fade-up"
 			data-aos-anchor-placement="bottom-bottom" className="inset center ">
 				<h1 className="about">About</h1>
-				<div className=" flex items-center w-[80%] pt-4 gap-1 justify-between">
+				<div className=" flex items-center w-[80%] pt-4 gap-1 justify-between flex-wrap">
 					<div  >
 						<h1 className="headline ">
 							Hello, my name is Muhammad, <br /> I am currently a Frontend Developer at <br /> Pdp Academy .

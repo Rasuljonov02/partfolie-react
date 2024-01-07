@@ -4,6 +4,7 @@ import Cell from "./Home";
 import Div from "./Hedr";
 import About from "./About";
 
+
 import "./main.css"
 
 export default class Main extends React.Component {
@@ -14,6 +15,7 @@ export default class Main extends React.Component {
         <Div />
         <Cell />
         <About/>
+
       </div>
     );
   }
