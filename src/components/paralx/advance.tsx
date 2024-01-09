@@ -19,17 +19,14 @@ export default function Raa() {
 			<div
 				data-aos="fade-up"
 				data-aos-anchor-placement="bottom-bottom"
-				className="inset center p-5"
+				className="inset center p-5 mt-28"
 				id="about"
 			>
-				<br />
-				<br />
-				<br />
-				<br />
-				<h1 className="about text-white">About</h1>
+
+				<h1 id="about1" className="">About</h1>
 				<div className=" flex items-center w-[80%] pt-4 gap-1 justify-between flex-wrap">
 					<div>
-						<h1 className="headline mt-2 text-white">
+						<h1 id="about" className="headline mt-2">
 							Hello, my name is Muhammad, <br /> I am currently a Frontend Developer at <br /> Pdp
 							Academy . I'm learning programming, <br /> I like html, css, sass, bootstrap,
 							javascript. <br />
@@ -38,7 +35,7 @@ export default function Raa() {
 						</h1>
 					</div>
 					<div>
-						<h1 className="headline  flex flex-col gap-2 mt-2 text-white">
+						<h1 id="about" className="headline  ">
 							Surname: Rasuljanov <br />
 							Name: Muhammad <br />
 							Age: 22 <br />
