@@ -7,7 +7,7 @@ const Hedr = (props: HedrProps) => {
 
   return (
     <div data-aos="fade-down-right" className="fixed w-[100%] z-10">
-      <div className="flex p-2 w-[100%] bg-none items-center border-b-gray-900 justify-between">
+      <div className="flex p-3 pl-8 pr-8 w-[100%] bg-none items-center border-b-gray-900 justify-between">
         <div className="flex items-center gap-4">
           <span className="flex pl-4 items-center gap-1">
             <h1 className="rm text-[#4C4C4C]">R... </h1>
