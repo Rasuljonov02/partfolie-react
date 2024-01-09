@@ -29,14 +29,18 @@ class Cell extends React.Component {
 	render() {
 		return (
 			<div   className="" id="home">
-				<div data-aos="zoom-in-up" id="imglar" className="grid bg-white  place-items-center w-[100%] h-[100vh] pt-10">
+			<div className="w-[100%] h-[100vh] pt-10 flex items-center justify-center gap-6">
+			<span>
+					<h1 className="h1 ">R</h1>
+				</span>
+				<div data-aos="zoom-in-up" id="imglar" className="grid  place-items-center ">
 					<img className="w-[300px] mt-8 rounded-[50%]" src={ozim} alt="" />
 					<div className="grid place-items-center gap-3">
 						<span className="flex items-center gap-3">
-							<h1 className="im">I'm</h1> <span className="imm" ref={(el) => (this.el = el)} />
+							<h1 className="im text-[#E6E6E6]">I'm</h1> <span className="imm" ref={(el) => (this.el = el)} />
 						</span>
 						<span className="flex ml-5 items-center gap-1">
-							<h1 className="f text-[#343434]">Frontend Developer </h1>
+							<h1 className="f text-[#ffffd5]">Frontend Developer </h1>
 							<h1 className="f text-[#6930c3]">/rise to dreams</h1>
 						</span>
 					</div>
@@ -117,7 +121,12 @@ class Cell extends React.Component {
 							</svg>
 						</a>
 					</div>
+
 				</div>
+				<span>
+					<h1  className="h11 ">M</h1>
+				</span>
+			</div>
 			</div>
 		);
 	}

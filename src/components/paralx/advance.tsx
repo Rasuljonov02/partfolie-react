@@ -3,7 +3,7 @@ import { BannerLayer } from "react-scroll-parallax/dist/components/ParallaxBanne
 
 export default function Raa() {
 	const background: BannerLayer = {
-		image: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/105988/banner-background.jpg",
+		image: "https://i.pinimg.com/originals/93/72/e8/9372e881397e867c7f2bca42c3fdd1e9.jpg",
 		translateY: [0, 50],
 		opacity: [1, 0.3],
 		scale: [1.05, 1, "easeOutCubic"],

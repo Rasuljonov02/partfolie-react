@@ -15,7 +15,7 @@ const Main = () => {
 			<Switch>
 				<Route index path="/home" element={<Cell />} />
 				<Route path="/about" element={<About />} />
-				<Route path="/about" element={<About />} />
+				{/* <Route path="/about" element={<About />} /> */}
 				<Route path="/*" element={<Navigate to='/home' />} />
 			</Switch>
 		</div>
