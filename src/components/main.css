@@ -8,7 +8,9 @@
 	line-height: normal;
 	padding: 0 15px;
 }
-
+html {
+	scroll-behavior: smooth;
+}
 a {
 	text-decoration: none;
 }
@@ -23,7 +25,7 @@ a {
 .im {
 	color: #343434;
 	font-family: Poppins;
-	font-size: 42px;
+	font-size: 35px;
 	font-style: normal;
 	font-weight: 500;
 	line-height: normal;
@@ -32,7 +34,7 @@ a {
 .f {
 	color: #4c4c4c;
 	font-family: Poppins;
-	font-size: 36px;
+	font-size: 30px;
 	font-style: normal;
 	font-weight: 500;
 	line-height: normal;
@@ -41,7 +43,7 @@ a {
 .imm {
 	color: #6930c3;
 	font-family: Poppins;
-	font-size: 42px;
+	font-size: 35px;
 	font-style: normal;
 	font-weight: 500;
 	line-height: normal;
@@ -49,13 +51,6 @@ a {
 
 
 
-html,
-body {
-  padding: 0;
-  margin: 0;
-  height: 200vh;
-  background: #000;
-}
 
 .headline {
  color: #E6E6E6;
